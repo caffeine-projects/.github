@@ -10,4 +10,3 @@
 
 - [ ] Tests added or updated
 - [ ] Docs updated, if behavior or usage changed
-- [ ] Commit messages follow Conventional Commits
