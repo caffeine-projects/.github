@@ -5,3 +5,9 @@
 ## How it was tested
 
 <!-- Tests added or run, or how you checked it by hand. -->
+
+## Checklist
+
+- [ ] Tests added or updated
+- [ ] Docs updated, if behavior or usage changed
+- [ ] Commit messages follow Conventional Commits
