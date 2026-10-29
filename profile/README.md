@@ -21,9 +21,30 @@ Go test, or run the `vlatte` CLI to serve mocks from YAML or JSON files.
 - **An admin API** to manage mocks while a server runs, also served over MCP.
 - **A CLI and a Docker image** to run mock servers outside Go.
 
+### Install
+
+#### Go library
+
 ```sh
 go get github.com/caffeine-projects/vlatte
+```
+
+#### Homebrew
+
+```sh
 brew install caffeine-projects/tap/vlatte
+```
+
+#### Go install
+
+```sh
+go install github.com/caffeine-projects/vlatte/cmd/vlatte@latest
+```
+
+#### Docker
+
+```sh
+docker pull ghcr.io/caffeine-projects/vlatte:v0.1.0-rc.1
 ```
 
 **[Documentation](https://caffeine-projects.github.io/vlatte/)** ·
