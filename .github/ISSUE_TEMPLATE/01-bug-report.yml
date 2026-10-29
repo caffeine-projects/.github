@@ -1,0 +1,72 @@
+name: Bug report
+description: Report unexpected behavior or a regression.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues before submitting a new report.
+        For security vulnerabilities, use the affected repository's **Security → Advisories → Report a vulnerability** flow instead of a public issue.
+        Remove secrets and personal data from code, logs, and attachments.
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: What happened?
+      description: Describe the problem and include any relevant error message.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Affected version
+      description: Provide the release version or commit. Include module names if more than one is involved.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: How can we reproduce it?
+      description: |
+        Provide steps, a minimal code example, or a link to a runnable reproduction, including any setup or commands needed.
+        If the problem is intermittent or you cannot isolate it, explain what you tried and when it occurs.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: usage
+    attributes:
+      label: How do you use it?
+      options:
+        - Go library
+        - CLI
+        - Docker image
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include the Go version (`go version`) and the OS and architecture. Add other tooling versions when relevant.
+
+  - type: input
+    id: last-working-version
+    attributes:
+      label: Last known working version
+      description: If this is a regression, provide a version or commit where the same example worked, if known.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add relevant logs, screenshots, or other details. Put code and logs inside fenced code blocks.

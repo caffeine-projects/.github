@@ -1,0 +1,37 @@
+name: Feature request
+description: Suggest a new feature or improvement.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues before submitting a new request.
+        For security vulnerabilities, use the affected repository's **Security → Advisories → Report a vulnerability** flow instead of a public issue.
+        Remove secrets and personal data from examples and attachments.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: Describe what you are trying to do and what is missing or difficult today.
+    validations:
+      required: true
+
+  - type: textarea
+    id: desired-outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the behavior or capability that would help. An implementation proposal is optional.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-approach
+    attributes:
+      label: Suggested approach or example
+      description: If you have an idea, describe it or show how you would use the feature.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Mention any existing options or workarounds you tried and where they fall short.
