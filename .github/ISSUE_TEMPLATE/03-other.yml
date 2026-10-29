@@ -1,0 +1,23 @@
+name: Other issue
+description: Raise a documentation issue, maintenance suggestion, or usage question.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues before submitting a new issue.
+        For security vulnerabilities, use the affected repository's **Security → Advisories → Report a vulnerability** flow instead of a public issue.
+        Remove secrets and personal data from examples and attachments.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue or question and what you would like to happen. For documentation issues, include the page or section.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any useful links, examples, or other details.

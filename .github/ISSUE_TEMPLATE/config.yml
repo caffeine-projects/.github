@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/caffeine-projects/.github/blob/main/SECURITY.md
+    about: Learn how to report a vulnerability privately in the affected repository.
