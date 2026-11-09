@@ -44,7 +44,7 @@ go install github.com/caffeine-projects/vlatte/cmd/vlatte@latest
 #### Docker
 
 ```sh
-docker pull ghcr.io/caffeine-projects/vlatte:v0.1.0-rc.1
+docker pull ghcr.io/caffeine-projects/vlatte
 ```
 
 **[Documentation](https://caffeine-projects.github.io/vlatte/)** ·
